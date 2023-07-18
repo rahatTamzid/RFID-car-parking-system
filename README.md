@@ -1,1 +1,4 @@
 # RFID-car-parking-system
+This is an RFID controlled smart car parking system, here we are controlling the entry and exit of vehicles with RFID access control. Also we are showing available slots for car parking. Available parking slots are green and when a vehicle fills a parking slot, it turns red. Whenever all parking slots are full, the system will not access any vehicle to enter the parking area even if it has a valid access card. For this project I used 1x Arduino MEGA 1x Arduino UNO, 2 Servo Motors, 5x Red LED, 5X Green. LED, 6x IR sensor module. To detect a car in front of the gate and in the parking slot, I used IR sensor.
+
+// As far as I know, a single microcontroller board cannot support multiple SPI protocol devices. This is why I used a different Arduino board to use another RFID receiver. I tried using multiple RFID readers on a single board. But it didn't work.
